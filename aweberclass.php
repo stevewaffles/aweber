@@ -28,7 +28,7 @@ class AWeber{
             $list->subscribers->create($subscriber);
         }
         catch(Exception $exc) {
-            //print_r($exc);
+            error_log(print_r($exc));
         }
     }
 }
