@@ -23,3 +23,7 @@ $subscriber = array(
 //add them to the list
 $add_user = $app->addSubscriber($subscriber, $list);
 ?>
+
+TODO:
+------------
+* Add way to read keys and list from environment file. Possibly this - https://github.com/vlucas/phpdotenv
