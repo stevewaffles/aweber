@@ -9,7 +9,7 @@ Step 2 - Profit
 Starter code:
 ------------
 <?php
-require('./aweber/aweberclass.php');
+require('aweber/aweberclass.php');
 
 //new aweber
 $app = new AWeber();
