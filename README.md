@@ -3,11 +3,12 @@ AWeber class to add subscribers to lists
 
 Basic Usage:
 ------------
-Step 1 - Open aweberclass.php and add your keys
-Step 2 - Profit
+1. Open aweberclass.php and add your keys
+2. Profit
 
 Starter code:
 ------------
+```
 <?php
 require('aweber/aweberclass.php');
 
@@ -23,7 +24,4 @@ $subscriber = array(
 //add them to the list
 $add_user = $app->addSubscriber($subscriber, $list);
 ?>
-
-TODO:
-------------
-* Add way to read keys and list from environment file. Possibly this - https://github.com/vlucas/phpdotenv
+```
