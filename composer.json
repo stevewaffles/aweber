@@ -1,0 +1,7 @@
+{
+    "name": "stevewaffles/aweber_class",
+    "description": "A simple PHP class to interact with the AWeber API",
+    "require": {
+        "php": ">=5.4.0"
+    }
+}
